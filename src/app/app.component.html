@@ -1,1 +1,7 @@
-<h1>{{monsterName}}</h1>
+<p>{{monsterName}}</p>
+
+<button type="button" [disabled] = '!monsterName' (click) = "randValue()"  >Toggle</button>
+
+<p *ngIf="monsterPower"> {{monsterName}} {{monsterPower}} </p>
+
+

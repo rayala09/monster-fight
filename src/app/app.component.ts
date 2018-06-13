@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
-  monsterName: string = 'El Cucuy';
+  monsterName: string = 'Monster';
+  monsterPower: number;
+  randValue() {
+  this.monsterPower = Math.floor(Math.floor(Math.random() * 100));
+  }
 }
