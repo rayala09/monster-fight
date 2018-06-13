@@ -9,9 +9,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
-  monsterName: string = 'El Cucuy';
-
-  // monsterName = 'El Cucuy';
-
 
 }
