@@ -13,4 +13,14 @@ export class AppComponent {
   randValue() {
   this.monsterPower = Math.floor(Math.floor(Math.random() * 100));
   }
+
+
+  hero: any = {
+    name: '',
+
+  };
+
+
+
+
 }
